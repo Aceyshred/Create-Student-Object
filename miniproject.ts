@@ -1,4 +1,3 @@
-console.log ('hello world')
 interface Iundergrad{
     name:string;
     age:number;
@@ -27,7 +26,7 @@ class Student{
 
 let student1 = new Student("Eddie Van Halen", 64, "male", "Dutch")
 let student2 = new Student("Bret Hart", 65, "male", "Canadian")
-let student3 = new Student("Moneer", 27, "male", "Yemeni")
+let student3 = new Student("Razor Ramon", 49, "male", "Cuban")
 console.log(student1.getNationality())
 console.log(student2)
 console.log(student3)
@@ -43,6 +42,6 @@ class UnderGraduates extends Student implements Iundergrad{
     }
 }
 
-let student4 = new UnderGraduates ("Owen Hart", 37, "male", "Canadian", 1, 3.7)
+let student4 = new UnderGraduates ("Ric Flair", 37, "male", "American", 1, 3.7)
 console.log(student4)
 console.log(student4.getNationality())

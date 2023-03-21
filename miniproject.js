@@ -13,7 +13,6 @@ var __extends = (this && this.__extends) || (function () {
         d.prototype = b === null ? Object.create(b) : (__.prototype = b.prototype, new __());
     };
 })();
-console.log('hello world');
 var Student = /** @class */ (function () {
     function Student(studName, studAge, studGen, studNation) {
         this.name = studName;
@@ -28,7 +27,7 @@ var Student = /** @class */ (function () {
 }());
 var student1 = new Student("Eddie Van Halen", 64, "male", "Dutch");
 var student2 = new Student("Bret Hart", 65, "male", "Canadian");
-var student3 = new Student("Moneer", 27, "male", "Yemeni");
+var student3 = new Student("Razor Ramon", 49, "male", "Cuban");
 console.log(student1.getNationality());
 console.log(student2);
 console.log(student3);
@@ -42,6 +41,6 @@ var UnderGraduates = /** @class */ (function (_super) {
     }
     return UnderGraduates;
 }(Student));
-var student4 = new UnderGraduates("Owen Hart", 37, "male", "Canadian", 1, 3.7);
+var student4 = new UnderGraduates("Ric Flair", 37, "male", "American", 1, 3.7);
 console.log(student4);
 console.log(student4.getNationality());
